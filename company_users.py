@@ -3,7 +3,7 @@ class User:
     def __init__(self, user_id: int, name: str, access_level: str = 'user'):
 
         self.user_id = user_id  # Присваивание ID
-        self.name = name  # Присваивание имени
+        self.name = name  # Присваивание имени пользователя
         self.access_level = access_level  # Уровень доступа ('user' для обычных сотрудников)
 
     def __str__(self):
